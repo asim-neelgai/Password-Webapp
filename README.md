@@ -1,6 +1,6 @@
-# Fort Lock
+# Password-WebApp
 
-Fort Lock frontend powered by Next.js.
+WEbAPp frontend powered by Next.js.
 
 ## Getting Started
 
