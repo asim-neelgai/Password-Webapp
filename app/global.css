@@ -1,0 +1,52 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+    @apply font-semibold
+  }
+
+  h2 {
+    @apply text-xl;
+    @apply font-semibold
+  }
+
+  h3 {
+    @apply text-lg;
+    @apply font-semibold
+  }
+
+  th {
+    @apply uppercase
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.btn-lg {
+  @apply bg-red-400
+}
+
+.react-calendar {
+  border: none !important;
+}
+
+.css-b62m3t-container{
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
+  height: calc(10%);
+}
+
+.collection{
+  border: 1px solid red !important;
+  width: calc(100%);
+  position: absolute;
+  padding-bottom: 1px;
+}
+
+.css-13cymwt-control{
+  border: none !important;
+  height: 3rem;
+}
+
